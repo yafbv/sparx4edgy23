@@ -1,0 +1,86 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="4E0171E9-B" name="EDGY_Toolbox" version="0.99" notes="EDGY23, SVG tryout, packages, labels"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="EDGY_Elements_Base" alias="EDGY Base Elements" notes="" cx="166" cy="101" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Base" type="" description="" unit="" values="" default="Base"/>
+					<Tag name="EDGY::People" type="" description="" unit="" values="" default="People"/>
+					<Tag name="EDGY::Outcome" type="" description="" unit="" values="" default="Outcome"/>
+					<Tag name="EDGY::Object" type="" description="" unit="" values="" default="Object"/>
+					<Tag name="EDGY::Activity" type="" description="" unit="" values="" default="Activity"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EDGY_Elements_Identity" alias="EDGY Facet - Identity" notes="" cx="166" cy="88" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Identity" type="" description="" unit="" values="" default="Identity"/>
+					<Tag name="EDGY::Purpose" type="" description="" unit="" values="" default="Purpose"/>
+					<Tag name="EDGY::Content" type="" description="" unit="" values="" default="Content"/>
+					<Tag name="EDGY::Story" type="" description="" unit="" values="" default="Story"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EDGY_Elements_Architecture" alias="EDGY Facet - Architecture" notes="" cx="166" cy="88" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Architecture" type="" description="" unit="" values="" default="Architecture"/>
+					<Tag name="EDGY::Capability" type="" description="" unit="" values="" default="Capability"/>
+					<Tag name="EDGY::Asset" type="" description="" unit="" values="" default="Asset"/>
+					<Tag name="EDGY::Process" type="" description="" unit="" values="" default="Process"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EDGY_Elements_Experience" alias="EDGY Facet - Experience" notes="" cx="166" cy="88" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Experience" type="" description="" unit="" values="" default="Experience"/>
+					<Tag name="EDGY::Task" type="" description="" unit="" values="" default="Task"/>
+					<Tag name="EDGY::Channel" type="" description="" unit="" values="" default="Channel"/>
+					<Tag name="EDGY::Journey" type="" description="" unit="" values="" default="Journey"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EDGY_Elements_Intersection" alias="EDGY Intersections" notes="" cx="166" cy="88" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Intersection" type="" description="" unit="" values="" default="Intersection"/>
+					<Tag name="EDGY::Organisation" type="" description="" unit="" values="" default="Organisation"/>
+					<Tag name="EDGY::Product" type="" description="" unit="" values="" default="Product"/>
+					<Tag name="EDGY::Brand" type="" description="" unit="" values="" default="Brand"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EDGY_Labels" alias="EDGY Labels" notes="" cx="166" cy="68" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Tag" type="" description="" unit="" values="" default="Tag"/>
+					<Tag name="EDGY::Metric" type="" description="" unit="" values="" default="Metric"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EDGY_Connectors" alias="EDGY Relationships" notes="" cx="166" cy="77" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::Flow" type="" description="" unit="" values="" default="Flow"/>
+					<Tag name="EDGY::Link" type="" description="" unit="" values="" default="Link"/>
+					<Tag name="EDGY::Tree" type="" description="" unit="" values="" default="Tree"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

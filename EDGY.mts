@@ -1,0 +1,8 @@
+<MDG.Selections model="EDGY Toolkit --- DBType=11;Connect=Provider=SSDB;SRC=C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY Toolkit.qea;UID=;PWD=;">
+	<Technology id="EDGY" name="EDGY23" version="1.0" notes="EDGY23" filename="C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY MDG.xml" infoURI="https://enterprise.design/wiki/EDGY:Tools" supportURI="rudi.claes@inno.com" icon="C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY Images\IntersectionGroupLogo.bmp" logo="C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY Images\edgy.bmp"/>
+	<Profiles directory="C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY Profile" files="EDGY.xml"/>
+	<TagVals tags="EDGY::MetricStatus,EDGY::MetricValue,EDGY::TextAlign"/>
+	<Images images="311525615,1800945341,902203430,105490519,491528431,376981340,1285836241,1855054397,2087937013,403315717,1148475688,1780172876,1672464186,1959201887,1373286830,764730813,1518697603,446176620,1777172553,1806225310,506082552,1089079744,1071594607,1815992970,2117742410,1729751841,1780469479,1068631268,1236767747,777627930,1578997113,983527362,469909519,2098952835,1455104199,2021346909,945370816,1783503305,58417942,1841308641,1194232189,204270056,923411338,974819843,47992699,560383603,418370663,2109054801,464077144,286441017,134674680,1977065360,664000258,1492513252,50071142,841519304,1061677565,1028197668,1142378716,863086123,718999235,931184791,606446805,533518853,1923214309,1525055584"/>
+	<DiagramProfile directory="C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY Diagrams" files="EDGY_Diagrams.xml"/>
+	<UIToolboxes directory="C:\Users\rudi-\OneDrive - inno.com cvba\EDGY\EDGY Toolkit\EDGY Toolbox" files="EDGY_Toolbox.xml"/>
+</MDG.Selections>
