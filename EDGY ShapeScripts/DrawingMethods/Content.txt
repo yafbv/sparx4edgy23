@@ -1,0 +1,36 @@
+// EDGY
+// Version   : EDGY23
+// Author    : Rudi Claes (rudi.claes@inno.com)
+// Element   : Content
+
+shape main
+{
+	v_align= "TOP";
+    h_align= "CENTER";
+	
+	setfillcolor(152, 251, 152); // (R,G,B)
+	defsize(105,70);
+	rectangle(0, 0, 100, 100); // (x1,y1,x2,y2)
+	
+	printwrapped ("#name#");
+}
+
+decoration content
+{
+	orientation="nw";
+	setfillcolor(152, 251, 152); // (R,G,B)
+	rectangle(0, 0, 100, 100);
+}
+
+decoration composite
+{
+	orientation="sw";
+	
+	if(hasproperty("iscomposite","true"))
+	{
+		ellipse(0,40,40,60);
+		ellipse(60,40,100,60);
+		moveto(30,50);
+		lineto(70,50);
+	}
+}

@@ -1,0 +1,764 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="3FEC513A-1" name="EDGY" version="0.99" notes="Shapes and colours, relationships, quicklink, content element alignment, SVG tryout, packages, text alignment, labels"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Asset" metatype="Asset" notes="" cx="151" cy="82" bgcolor="15658671" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALpsIliL5sEPMgIAAEoKAAAHABEAc3RyLmRhdFVUDQAHiRGU
+ZYkRlGWJEZRl5VZNT9tAFJyrK/EfonAJUoG2UKiokJpS1J5bhNQTcohDLRHH
+wgv0Q/z3zjx7N2s3JRySE7K82X07+z7mzcrZxS56OMUnfMZ3bOAF17KcI8MN
+KuSYoeBaz1GEfIO9CD3ELRx+EHvTYGv0V9rH9NHDCa6R0mfF+YCo2r6Dy2D/
+wHXBZ2bWGabYiiKcEpfRlhHhoghDnqxodYbVWzGPFCVtPeJT8yr7HxuTxt8Z
+I5SNJcfEsvpCdMWdFFdc9UOtR3zO6O8nowyZR879gvsvearfeOoz2zrfJERK
+WGNG32LxN2cDvMMrnnrLcQvvAyolbkzULUZR9srAWcwLvnUMRXzN0/LiZ7Gn
+JMxiFtpePGKeZULsBdG+sh6OrbLLhm0pod+KcrcQ77OMkZn12RE9sg5OuMo4
+G4dTBffU1/a5kjHVOYd7zlSJahkbK5vhzKbxHp/LredXDX/fAgvbkVJ26HPK
+TGo+ay5jRhdz+9DM/G+sppOIqVVoKva3XmW1e7yMg8f1Fftan8r+j38eWvvI
+W+aguzZdidZif+vV2qgVaRkHj2st9rU+rbUzfg5aq0e96rq+w8rSwf8PkMLm
+31vPuFCqX3XN0cfGwr0x4LvZrUOraz7bK6tpWQX1f4uSoxQtLTytkqqppMb5
+aiasQ3lX1ll9/6Qth19WX077v/FUi26F/gVptejOSUtSY2k8DKzS/Wg86HSx
+i9e+x3qmumemzOnOWJ7xxJ5hurdaPouAOVyA8br5C1BLAQIXCxQAAAAIALps
+IliL5sEPMgIAAEoKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeJ
+EZRlUEsFBgAAAAABAAEAPgAAAGgCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Capability" metatype="Capability" notes="" cx="151" cy="82" bgcolor="15658671" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANpsIljSImWCLgIAAIYKAAAHABEAc3RyLmRhdFVUDQAHxRGU
+ZcURlGXFEZRl5VZLS+tAGD3bCP6HEjcVfL9RBLWKrlUEV1LbtBaaNpj45v73
+e84kM53UaF2YlYSZzkzO9zrfGZpVrKKBM5ziHLeYxxz3OrlBhEekGGCMEfd6
+9j3kBjY99DGekOGB2McCm6Mved6ljwZaGKJNnynXTaLy8xV03PkR9yM+Y3M6
+RoxFL8IZcRHPIiIyL0KL1gnHPa2HHBnejJVGyoz0NiIu5kr+df5h5qDwfM1Y
+SXEyQM/kd0F0yjdt9LkLXdX7fK7p75Vxjk28Pn2GWKJVWHgKmXeeeeAiBaw2
+om/x+c5VE3tYo9U250UcOFSbuC5RT6xnkr0yyEzMO448hiKu01pe7Mr3FLiV
+z0LZi0VMsgyIvSPaVtbAoamsU/AuTYSlKM+VeJulj4xMxzPTK/Wyx13EVddZ
+jfhOHS7bJYypzmV44UqVqJauYWXB2SwY3n27gel5v+DvyrGwXKmZFXqPmVPO
+bM6qz201y/+Klf31ddXyOPsNdfn+6tVYuduzOPheab6v+vT2Nf6vqe6ENy+D
+7l/8K6rz/dWruvtSpFkcfK8631d9qitn/LdUl88a6r/+r5VvBvu90KmIK7Tt
+gvDiRLVO7A4NMy+GFdvh6dq0G/JZrqHO2VWp1wln6V1K+VlNaVFTjrN19ViR
+KkhN3/WPKeUpc1U64PnneKpFd0ZfUNpV3UgpTRwktBJrqnTLm3emOjuN13uL
+tUxN28TM6Zloqb/Jb8GqOy+fI4fZrcBYLf0HUEsBAhcLFAAAAAgA2mwiWNIi
+ZYIuAgAAhgoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8URlGVQ
+SwUGAAAAAAEAAQA+AAAAZAIAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Link" metatype="Link" notes="" cx="151" cy="56" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Content" metatype="Content" notes="" cx="151" cy="82" bgcolor="10025880" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKRsIlhWWfArLwIAAGIKAAAHABEAc3RyLmRhdFVUDQAHnhGU
+ZZ4RlGWeEZRl5VZLT9tAGJyrK/EfonAJUnmU8qiokEoDKucWVeoJOcShlrAT
+4eXViv/emfXuZm1c4JCckGVn99v5XvONFW9iEz2c4Bjf8AsreMe9LD+R4RoV
+ckxRcq/rIEJu42OEPsINDH4Te+2wNfo77WPG6GGIK6SMWXE9IKq2b+Ai2L9w
+X/KaWusUBdaiDCfEZbRlRJgow9DWZ5xdeN0Va0kxo7VHn9RGlv2vfSYu5hl9
+Z86SY2IrOyW64kmKS+76od8DXmeMd88sR6wl53nJ8/f06rtIfVZc15yETAn7
+zBhbTP7haoBP2KLXLp9r+BxQKXFjom4wiqpXBcbmPOdd51DGD/RWFL+KIyVh
+FbPQjOIR8yoTYs+J9p31cGg7u3DMSg39RpbbTryvMkZmdtaG6JGd4oS7jKtx
+8Cp5ptk2/WbMqckZ3HGlTtTL2LKyGnxWLe+xX25nfun4+xFYWG+pZYNxC1ZT
+c1rzGbPaze+jW/nfWFHDiK1F6CqOt1x1Nef8EgfPayyOtTyl/R//dvT2lfEN
+9M4VC9FbHG+5ehs1Mr3EwfN6i2MtT2/Nit+K3uqnbk1e/8uq1MB/F8gyzyic
+Z15I8SD73OPQsnFnmfBTbfej3RWv9YX29ppOCuaaWnUrz+u6qVw3Nc53NGEv
+qr2yU9Z/onRm8GB7zGl/mk+96A3R15F2Xe+fdCVlzuglvtTpTvTca02zjde5
+x3qm2j4Fa7olWlof8Duv6w1XzDJg9jswXj//AFBLAQIXCxQAAAAIAKRsIlhW
+WfArLwIAAGIKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeeEZRl
+UEsFBgAAAAABAAEAPgAAAGUCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Story" metatype="Story" notes="" cx="151" cy="82" bgcolor="10025880" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOxsIlhGrOHsLgIAAEoKAAAHABEAc3RyLmRhdFVUDQAHGhKU
+ZRoSlGUaEpRl5VZNT9tQEJyrK/EfonAJUgv9pBUVUilF7bmgSj0hhzjUEnEs
+bKAf6n/vzNrvsQ4u4ZCckBXnvX2zHzO7lr2DHQxwhE/4jO/YwBPuZfmGDJeo
+kGOOgntdew75Eq8c+gBXqPGD2MsW26C/0j5hjAEOcYGUMSuuR0Q19m2cRfsH
+7gtec7POMcOWy3BEXEZbRkTtMhxzp6y/DKtfxTpSlEQOiE8tqux/7J608U7o
+VbaWHFOr6gvRFU9SnHM3jFz3eJ0w3k/mOmAdOc8Lnj+l17CNNGS1Tb1JzJSQ
+Y8bYUvE3VyO8w3N6veF9C+8jKiVuQtQVxq56VVBbzlPjqBzK+ILeihJWPlIS
+V16FbpSAuK0yIfaU6MBsgH1jdtaqrUkYdrJc9+JDlR6ZWZ9rosfWwSl3GVeT
+6FXwTH3t+pXMqc7VuOFKTMRlYqpsRp9N09375dbz81a/46jCMzcp24w5YyWN
+no2WXtF+bf+2q/Dvp+nQKbWKmfLx1jtZ3R4v0+D++fKx1jdl/8c/jln7yMi1
+xZ+tZNZ8vPXO2riTaZkG98+aj7W+WetW/Bhmrbnrp67rPawqa4TvgO77Nigu
+i/iL1y1631S4MQVCNxd5aHfBSzxWw2kZg+bbouRdE61ZeBiTqmXS4AKbKXmo
+7so6q/efZqtm5eKX0343n7joqdBXkHZ9z5xmSdNY0ktaielrd99d6OIiXucB
+G5Ra9JmxpmuipfWI33N9T7ViFhHztgcT5uYfUEsBAhcLFAAAAAgA7GwiWEas
+4ewuAgAASgoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABxoSlGVQ
+SwUGAAAAAAEAAQA+AAAAZAIAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Organisation" metatype="Organisation" notes="" cx="151" cy="82" bgcolor="16776960" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAABtIlhaaJbPNgIAAJAKAAAHABEAc3RyLmRhdFVUDQAHMBKU
+ZTASlGUwEpRl5VZLT9RQGD3bmvgfmmEzJAqKz2BIRCTiykSJiSvSYTo4idNp
+aAHF+N895774OhbGxcyKNL29j/O9zneadhvbyHGI9/iAb3iIB1xr5ytKnKPB
+FHNUXOvaNcgdPDPofVygxXdizwPWoz9zf0wfOQ7wAwV9NpwPifL7WzhN+2+5
+rnjN3e4cM2yaCIfEldwriWhNhE/0dUYPFa0bPtuQsSx1N8yqQE27nNaFi6H9
+327Mgvdj2tRhZ4qJy/GI6IYnBf0PMUiV7/I6pr+fjLXPrKY8r3j+iFaD4GnA
+3H32WYqUseKSvsXpNWdDvMYTWr3guIk3CVUQNybqAiOTvTJoXcwT3j6GIj6l
+tbzEmfWUpZlloeslIm6yzIg9ITpWlmPPVXYauJcuBp0ol734mKVFlq7rLdEj
+188JVyVn42RV8Uxd7trVjKnOtbjiTJWolrFjZSPZbDjerd3U9fws8PclsfD4
+Vt1sMcKMeXl2PbOW336m/4RZfFptHRjeVqEw62+9Out2fBkHd6vN+lqf5m7H
+30flvaPfFnoPZytRnvW3XuWNOpGWcXC38qyv9Smvm/H9U54fdUsD+n4r5xgh
+d+u+2LKI3RBG3KjmG8SeY+jKsRM73a3xo4tXrbTCZfX4P5Sao9QunfxfJU2o
+xONiNRPWoT41ruv6bkp3LX65+lTLv/FUi94Y/Utp1fc+SmdSak0rcaVKn5vx
+5UJPF/E6j9jI1KLNjDldEi3tD/lX2PfGy2eVMK96MFFFfwFQSwECFwsUAAAA
+CAAAbSJYWmiWzzYCAACQCgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAHMBKUZVBLBQYAAAAAAQABAD4AAABsAgAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Purpose" metatype="Purpose" notes="" cx="151" cy="82" bgcolor="10025880" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMJsIlhzVacgMgIAAGIKAAAHABEAc3RyLmRhdFVUDQAH2RGU
+ZdkRlGXZEZRl5VZNT9tAEH1XV+p/iMIlSAX6RVtRIZVSRI9ViypxQglxqCXs
+WLGBfqj/nfd2vcvYuKSH5ISsOLuzb97MvBnL3sEOBjjCJxzjFE/xhHtZviPF
+AhUyzFFwr2vPIF/ilUEf4Ao1fhC7aLAe/ZX2KTkGOMQlxuSsuB4R5e3bOI/2
+D9wXvObOOkeOTRPhiLiUtpSI2kT4QqYFSuIrngmvX8VcxrSmRORciVn2P+6e
+NJwn9CobS4aZy+wz0RVPxrjgbhjr3eN1Qr6fjH7AXDKeFzx/Rq9hwzRkxj7n
+JEZKWGdKbin5m6sR3uE5vXZ538T7iBoTNyXqChOTvTKoXcwz/nwMRXxBb7GE
+lWVK4sqq0GYJiLssE2LPiA6VDbDvKjtvFNc0DFtRrnvxIUuLTF2va6Inrosz
+7lKuptGr4Jl62/YrGVOdq3HDlSpRLVOnykb02XC6W7/M9fyi0e9bVGGrMy3b
+5M2ZjdfU62lV7df3b7MK/3aiDo1aq5gry7fe6Wr3eZkGD8+Y5VrfpP0b/3jm
+7SOZa+iZy1cyb5ZvvfM2aUVapsHD82a51jdv7Ywfy7z5u37qvN7LyrRG+C4o
+771/g/JCSgfVd+ex79S4cUqErnbr0e6S19ZKa1tWif/m8Pzq5v9WUzXVeFyo
+aMZalHvluqx3ouasxi9XY0b7/XiqRU+Ivo6063v+NFeazNKpMHKVvjb3N51u
+dvE6D9igVNcnZ07XRGvWR/zO63vCxVlEzNseTJifW1BLAQIXCxQAAAAIAMJs
+IlhzVacgMgIAAGIKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfZ
+EZRlUEsFBgAAAAABAAEAPgAAAGgCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Flow" metatype="Flow" notes="" cx="151" cy="70" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ControlFlow">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Tree" metatype="Tree" notes="" cx="151" cy="70" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Composition">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="compositionKind" value="Composite at Source"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Journey" metatype="Journey" notes="" cx="151" cy="82" bgcolor="13353215" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOBsIlgPbXefNQIAAGIKAAAHABEAc3RyLmRhdFVUDQAH9BGU
+ZfQRlGX0EZRl5VbLTttAFD1bV+o/RGETJF59ABUVUikgqi5bVIkVcohDXRHH
+wg6PVvx7z5nxmGvXJSySFbLszNw593XuseJNbKKHYxzhBGd4jVfcy/IDCa5R
+IMUUGfe69gzyLd4Z9AFmKPGT2OsK69HfaB8xRg+HuELMmAXXA6K8fQMXtf0T
+9xmvqbNOMcGqyXBMXEJbQkRpMnwlcsZ4GU/uHV53wVpi5LT16BO7yLL/cc+o
+inlK37yypBi7yr4QXfAkxiV3/brfPV6njHfH7AesJeV5xvM1evWrSH1W7GuO
+6kwR+0wYW0z+5mqAD9ii1zafq/hYo2LiRkTNMDTVq4LS5Tzn7XMo4xt6K0pY
+2UhRvbIsNKMExGOVEbHnRIfOeth3nV1UjEsN/UaWm058qNIiEzfrkuihm+KY
+u4SrUe2V8UyzbfrlzKnJlbjlSp2ol5FjZaX2WXG8W7/Uzfyy4u97zcJ6Sy0b
+jDthNZ5Tz6dltZvfh2oVfq2iDg1bi9CVjbdcdTXnPI+DpzVmYy1Paf/Hvxy9
+fWb8EnrnJgvRm423XL0NG5nmcfC03mys5emtWfFL0Zt/6tbk9b+sSkuE74Jf
+jYzCBeaFFA/q79Fj37Fx65gIU233o90Vr/WF9javE//NkfMpdUsXz+umqLrx
+uNDRmL2o9sJNWf+J0lnJytVjSvu/+dSL3hB9HWnX9f5JV1JmTi/xpU7fm+dO
+a5ptvM4DNjDV9pmwphuipfUBv/O63nDF1CQ8ZrcDE/TzF1BLAQIXCxQAAAAI
+AOBsIlgPbXefNQIAAGIKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAf0EZRlUEsFBgAAAAABAAEAPgAAAGsCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Channel" metatype="Channel" notes="" cx="151" cy="82" bgcolor="13353215" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIRsIljtYBbWMwIAAGAKAAAHABEAc3RyLmRhdFVUDQAHchGU
+ZXIRlGVyEZRl5VbbattAFJxXFfoPxnlxoEl6b0kJNHVD+9yGQp+CbMupILZF
+pCS9kH/vzFmtcqSqcaHxUxCSd8/Ouc0ZYe1hDwMc4T0+4Cse4gH3snxBhnOU
+yLHCkntd+w75FM8c+hAXqPCN2PMaG9CfaJ8xxgBjnCFlzJLrEVHBvotpY3/L
+/ZLXyqwrLLDtMhwRl9GWEVG5DGNmTc0vI0J43aVZC9oG9Ektsuy/7JnUMY+Z
+pagtOeZW2UeiS56kOOVu2PS7z+uY8b4z+yEz5Txf8vwRvYZ1pCErDjUnTaaE
+fWaMLSZ/cjXCazym1ws+t/GmQaXEzYi6wMRVrwoqy3nCO+RQxif0VpS48pGS
+ZuVZaEeJiJsqE2JPiI6dDXBgnU1rxqWGYSvLZS8+VumRmc26InpiU5xzp2nN
+Gq8lzzTbtl/BnJpchSuu1Il6mRkrW43PlvHu/XKb+WnN3+eGhZ2OWnYZd8Fq
+AqeBT89qP7/X9Sr+ekWNHVt3oSsfb7Pqas95HQe3a8zH2pzS/o6/P3p7x7et
+gt65xZ3ozcfbrN4mrUzrOLhdbz7W5vTWrvi+6C08dWvy+l9WpRXid8G0lVG4
+yLyQ4kH93XgcGBtXxkScarcf7c547XR6+5/O1vehuRZ8SttSxb/1Uta9BFzs
+Z85OVHlpM9Y/olRW4Yd1mNP+Zz71ovdD30ba9b196l26LOglttTpc/d82Zll
+F6/ziI1MdX0WrOmSaCl9xK+8vvdbMTWJgHnVg4nq+Q1QSwECFwsUAAAACACE
+bCJY7WAW1jMCAABgCgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+chGUZVBLBQYAAAAAAQABAD4AAABpAgAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Task" metatype="Task" notes="" cx="151" cy="82" bgcolor="13353215" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKpsIlg1fPM3JwIAAKwJAAAHABEAc3RyLmRhdFVUDQAHsRGU
+ZbERlGWxEZRl3VZNT9tAFJyr8yuicAlSgX7QUlEhlVJUzjRC6gklxAGrxLGw
+gX6o/70zb9frdULdA+SCLNv7dufNzvuw1jvYQR/H+Iwv+IYeLdlnSHGDEhkW
+yGnr2o9wr/EmYA9xiwpXRN54pMOecn5Khj6OcI0xGUuOh0S5+W1chPmPtHNe
+C5tdYI7NwH9MVMqZlOtVxD+ib4nvxPX4vqJVENMncmxsPfzmnXiWEVkLszPM
+TMeJ+YvlktYgxLbPa0SmH9ztkHtnXM+5/oJeA88zoD4pTPweCSNKyauM/eJo
+iPd4SY+3fG7ig8eMiZoSc4tJpFh7V7bbOW/Hrr1e0Vcc9ajhSfw7jrrN4NZr
+bQlx50TWsfRxYLFc+Jyq1oOI/e5BdK2twaVWx4rYidVoRivlaBp8cq6pcrFX
+wd1Unwr3HEm/IphaHjaCx4bluPHKrK6XPl9fQ+RboQ+2yTenBpc9l7k4fw9l
+8o+93bPplaMoL4/vmJhtXX3TrmR3zF3dE/Oso4f+hX6unfSJ30wFfTnzJ+ik
+mG1dnTRp7dEdc1cnxTzr6KS2zufZSbp7VledidJVoT6RFaE7/Vxeta5IFUOD
+O7B47y1WV61lzbKueW09if4uxe5cL/hUj6rO/9deeu1COfUz6pbO0mqmE0n9
+UuGnxZNxfnUfqVeH689D1vKXo/5QfxX0UF4U1270fNeqzzJaqzWyzkrbY04t
+d8SqW4f8c1r9LsWXB8TeCsJ1w19QSwECFwsUAAAACACqbCJYNXzzNycCAACs
+CQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHsRGUZVBLBQYAAAAA
+AQABAD4AAABdAgAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Process" metatype="Process" notes="" cx="151" cy="82" bgcolor="15658671" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOhsIlg9GpioMgIAAGIKAAAHABEAc3RyLmRhdFVUDQAHCBKU
+ZQgSlGUIEpRl5VZNT9tAFJyrK/U/ROESpAL9bkWFVEoRPSKKKvWEnMahlohj
+xQb6of53Zna9y7NrCIfkhCxvdt/O+5jZt4p3sIMBDvEZR/iOp3jCtSzfkGGB
+CjnmKLjWs2uQL/HKoPdxiRo/iV00WI8+oX3CGAMc4AIpY1acj4jy9m38iPaP
+XBd85s46xwybJsMhcRltGRG1yXDMWHPiFaFyeL0Va0lR0jqgT+oiy/7XjUkT
+85SeZWPJMXWVfSG64k6Kc66Gke8un1PG+8Xs+6wl537B/Wf0GjaRhqzY15zE
+TAl5ZowtJf9wNsJ7PKfXG46b+BBRKXEToi4xNtWrgtrlPOPrcyjjC3orSpjZ
+SEmcWRXaUQLitsqE2DOiA7MB9hwzKSvF1Q3DVparXnyo0iIzd9Y10WN3ilOu
+Ms4m0avgns627Vcyp06uxjVnYiIuE6fKRvTZcLpbv9yd+Xmj39eowlanW7YZ
+d8ZqvKZeT6tqv77/mln4tR11YNRaRV/ZeOvtrvY5L9Pg/h6zsdbXaXfjH0+/
+fWL0Grpzs5X0m4233n4btzIt0+D+frOx1tdv7YofS7/5Ua9OXv/LqrRG+C4Q
+h/b/b1BeSOkgfrcee06Na6dEONUuH60u+GytlNsyJv6bo+So7lZfPIxN1bDx
+uMBoSi6qvWoUEocF/X47jjnt/+cTF90QfR1p1Xf/1FfqzJJe0ktMX5vxbec0
+u3jtB2xQquszY01XRKvXR/zO67vhillEzLseTOifG1BLAQIXCxQAAAAIAOhs
+Ilg9GpioMgIAAGIKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcI
+EpRlUEsFBgAAAAABAAEAPgAAAGgCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Product" metatype="Product" notes="" cx="151" cy="82" bgcolor="14204888" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAARtIljsw78ZMgIAAFQKAAAHABEAc3RyLmRhdFVUDQAHQhKU
+ZUISlGVCEpRl5VbLbtNQED1bI/EPUbpJJWh5g4oqUUoF7BBUSKwqp3GKJeJY
+sdPyEP/OOffVcTANi2RVWb65jzNnZs7MVbyPfQxwgjd4iy+4iztca+czCizQ
+oMQcFdd6DgzyER4b9BGWaPGV2EXAevRH7k/IMcAxviEnZ8P5iCi/v4fztP+K
+64rP3O3OMcOu8XBCXMG9gojWePhArjm5lrRpHV5vw1hy1EQPaJM7Zu3/cmMW
+OE9pWYedElMX2TuiG57kuOBqmPI94HNKvu/0csRYSp5XPL9Hq2FgGjJiH3OW
+PGWMrSC3lPzJ2Qgv8IBWTznu4mVC5cRNiFpibKJXBK3zecbX+5DHh7QWS5xZ
+pizNrApdloi4jjIj9ozomNkAhy6z86C4umHY8XLZi49RWmThat0SPXZVnHJV
+cDZJVhXPVNuuXU2fqlyLK86UiXKZOFV2ks2O093ala7mF0G/T0mF+yvdskfe
+GaPxmno9rar9+v4Os/hrO+rYqLWJvrJ82+2ubp3XaXBzj1mu7XXav/G3p99e
+k72F7txsI/1m+bbbb+OOp3Ua3Nxvlmt7/daN+Lb0mx/1qvL6X1akLeJ3gXLo
+/v9G5YWUDsrv2uLQqXHllIhV7ebz3nmpNpDNutj9V0bNUf2sTvi/+JsQv8fF
+HKaMXpVogiaqyIJ2P1xWJff/9qdcdCf0PaRV341TJ6kXa1pJIWX6xIzPVuq3
+itd5xEalVm1mjOmSaHX3iF92fXdanFXCPO/BxI75A1BLAQIXCxQAAAAIAARt
+Iljsw78ZMgIAAFQKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdC
+EpRlUEsFBgAAAAABAAEAPgAAAGgCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Outcome" metatype="Outcome" notes="" cx="151" cy="95" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAERtIlhUcwkALwIAAGIKAAAHABEAc3RyLmRhdFVUDQAHyhKU
+ZcoSlGXKEpRl5VZNT9tAFJyrK/U/ROESpAL9glZUSKUUtTckiipxQg5xqCXi
+WNhAP9T/3pm33mVtXMIhOSHLzu7beV/zxoq3sIUBDvEZX3CK53jGvSzfkeEK
+FXLMUXCvazdCvsabCL2Pa9T4QexVg3XoY9onjDHAAS6RMmbF9YgoZ9/EebB/
+5L7gNTfrHDOsRxkOictoy4ioowxHltnhM8PrrlhLipKWAe2pRZb9jz2TJuYJ
+vcrGkmNqlX0luuJJigvuhqHfXV4njPeT2fZZS87zgucv6DVsIg1Zsas5CZkS
+9pkxtpj8zdUI7/GSXtt8ruNDQKXETYi6xjiqXhXUlvOMt8uhjK/orSh+FUdK
+wipmoR3FI+6qTIg9I9p3NsCedXbeMC41DFtZbnrxvsoYmdmsa6LHNsUpdxlX
+k+BV8Ezza/uVzKnJ1bjlSp2ol4mxshZ81oz32C+3mV80/H0LLGx01LLJuDNW
+4zh1fMas9vP7t1n531hRBxFby9BVHG+16mrPeREHD2ssjrU6pf0f/3T09omR
+a+idmy1Fb3G81ept3Mq0iIOH9RbHWp3e2hU/Fb25p25NXpFVaQ3/XTC/9//r
+mRdSPKi/O489Y+PWmPBT7faj3SWvjaX2tqgTF7nkU+qWLh7XTdV043C+oyl7
+Ue2VTVn/idJZjV/WY077/XzqRW+Ivo6063v/pCsps6SX+FKnb6PnTmeaXbzO
+PdYz1fWZsaYboqX1Eb/z+t5wxSwC5l0PxuvnH1BLAQIXCxQAAAAIAERtIlhU
+cwkALwIAAGIKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfKEpRl
+UEsFBgAAAAABAAEAPgAAAGUCAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Activity" metatype="Activity" notes="" cx="151" cy="95" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGZtIlglP21/NAIAAG4KAAAHABEAc3RyLmRhdFVUDQAH5xKU
+ZecSlGXnEpRl5VZLT9tAGJyrK/U/ROESpAJtKVBRITWlqD23CKkn5BCHWiKO
+hU3oQ/z3zux6l8/BkB6SE7K82cd8r/lmFe9gBz2c4DO+4Ade4gXX2jlDhmtU
+yDFDwbWeQ4N8i12DHuIGNX4Se91gPfob98f00cMxrpDSZ8X5gCi/v42LuP+R
+64LPzO3OMMWmiXBCXMa9jIjaRBgSW9NyzrfGb2eht2I2KUrie7RKnW/t/3Vj
+0ng9ZZyy2ckxcbl9JbriSYpLrvqx4kM+p/T3i3GGzCbnecHzV7TqN576zNln
+ncRICSvN6Ftc/uFsgPd4Tas9jpv4EFEpcWOibjAy2SuD2sU85+tjKOIbWstL
+mFlPSZxZFtpeAuI+y4TYc6JDZT0cucouGs6lh34ryrwTH7K0yMx1uyZ65Po4
+4SrjbBytCp6pu227kjHVuRq3nKkS1TJ2rGxEmw3Hu7XLXc8vG/6+Rxa2Huhl
+m56nzMez6hm1vHYzfNfMwq/V1LHhaxXKsv7Wq692p5dx8LTKrK/1ae1x/HNS
+3CfeuBq6d9OVKM76W6/iRq1Iyzh4WnHW1/oU1874+SjOj3rVe/0/K1dF8d8H
+acf/cGBfWHGhGu9tjhwjt46N0NnFmrS64rO14vqWVeO/P0qO0rjU8X/1VE09
+HhdqmrAaZV+5XuvfUWpT5qoy5/7DeKpF90RfSlp13UKpS/osaSXGVOk7M+4v
+dHQRr/OADUwt2kyZ05xoKX7Ab76uey6fRcQcdGCChv4BUEsBAhcLFAAAAAgA
+Zm0iWCU/bX80AgAAbgoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B+cSlGVQSwUGAAAAAAEAAQA+AAAAagIAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Object" metatype="Object" notes="" cx="151" cy="95" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAF5tIliAbm5tNAIAAFYKAAAHABEAc3RyLmRhdFVUDQAHtxKU
+ZbcSlGW3EpRl5VZNT9tAFJyrkfofonAJUoFCgVZUSHwU0RtSQUickJM41BVx
+LGygBfHfO7Pr3ayNSzgkJ2Rls/t29n3Mm5W9jnV0cIzvOMElPmCJa1kukOAW
+BVJMkHGtZzdAbuJzgD7AHUr8Iva2wlr0T9qH9NHBEW4Q02fBeY8oa1/DwNv3
+uc74TIx1gjFWggjHxCW0JUSUQYRT9PGb1gGtQutXMJMYOa0dnoiNX9mfzBhV
+Hs8ZI68sKUYmrx9EF9yJcc1V11e7y+ec/v4wygEzSbmfcf8jT3UrT13mazOO
+fKSIVSb0LR4fOevhKz7x1DbHFXzzqJi4IVF3rGaavTIoTcwr/mwMRdzgaXlx
+s9BT5GchC3UvDjHNMiL2imhXWQd7prJBxbe00K1FuW/FuyxDZGI6XRLdNz0c
+cZVwNvSnMu6ps/VzOWOqcyUeOFMlqmVoWFn2Z5YN7+G51PT8uuLvzLOwWtPK
+Gr2OmYtl1LIZctrO7nM1c/+hno4CruahqtDfYrVV7/IsDl5XWOhrcTr7P/69
+qO2QN62E7tt4LmoL/S1Wbf1apFkcvK620Nfi1FbP+H2ozY76qe96HyvPEu57
+YNJ47zrWhRMHqm2K3zNMPBgWXEebtWh1w2d1jnXNqsJ+Z+QcpWsp4m21FFUt
+FufqGbESZV6Y/upNKIWV+GsqTGl/GU+16G7oi0irtpsnRUmTOU+JLVW6FYw7
+jU428dp3WMdU88yYOd0TLZX3+G3XdrflM/OYLy0Yp51/UEsBAhcLFAAAAAgA
+Xm0iWIBubm00AgAAVgoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B7cSlGVQSwUGAAAAAAEAAQA+AAAAagIAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="People" metatype="People" notes="" cx="151" cy="82" bgcolor="16119285" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALhxJlhywQffTgEAADIDAAAHABEAc3RyLmRhdFVUDQAHGGCZ
+ZRhgmWUYYJlljVJNS8NAEH3XCP6HkF5SsFYtiiiCokW8iQfBk6Rm0wptEpKt
+itL/7pvZJK7FSgn7MbNvZt6bzBBDhBjjBrd4wi52aIvnEQYVaryiQE5bvjMP
+eYSRh77CEhYzYqsG69AP9KfMEeIacyTMWfMeE+X8+3jp/Je0c36Fegss0Pcq
+jIkz9BkirFfhnp4Cpb4KWlZNJgl9hu8L3iSv+L90D1jZIFNtn7zFOMUB9nDM
+vY/zBpMQlRKzxMTLFyPSs60YMS7EISMlQ7h1Dsvzg/v/8W731fi13WurKaAa
+0TptKtxpD3MMfnVowJoVUTmzljzd3bLj74zOGj4j8pDTcTppLOnSD7fVRo6t
+tnV+MzwTMyfPqU7UBVdElu6PyrRFXfYAb3+irSrxcUbnyBI7UYUZLcNb2sXk
+fJO58aNKVpOpsNQtPSiVe6qd63URPVrrilf4BlBLAQIXCxQAAAAIALhxJlhy
+wQffTgEAADIDAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcYYJll
+UEsFBgAAAAABAAEAPgAAAIQBAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Brand" metatype="Brand" notes="" cx="151" cy="82" bgcolor="55295" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAptIlgUdI2GMAIAADwKAAAHABEAc3RyLmRhdFVUDQAHVRKU
+ZVUSlGVVEpRl5VZNb9NAFJyrkfgPUXpJJWj5BhVVoi0VcIUKiVPl1E6xRByr
+dlug4r8z8+zdPgfTINGcKsub3bez72PerOJtbGOEQ7zFO3zBfdzjWpbPyHGG
+GgUWKLnWs+OQT/DUofdwjgZfiT3rsC36I+0ZfYxwgG9I6bPmfEJUa9/CSbS/
+4brkszDrAnNsugiHxOW05UQ0LsI+faW0ZYbVWzOPFBWRI+JT8yr7lY1J5++I
+EarOUmBmWb0nuuZOilOuxrHWHT5H9PedkfeYR8H9kvsPeGrceRoz2zbfJEZK
+mFVO32LxJ2cTvMIjnnrOcROvIyolLiPqHFOXvTJoLOYx3zaGIj7maXkJM+8p
+iTPPQt9LQFxnmRB7THSobIRdq+ykY1tKGPeiXAziQ5YemVufG6Kn1sEZVzln
+WTxVck997Z+rGFOda3BpHa6slsxY2YhnNox3f66wnp92/H2KLDx0Stmizzkz
+aflsufSMDnP7q5uFX6+mA8fUbWjK+1uvsvo9XsXBzfryvtansr/j74bW9nnL
+GuiuzW9Fa97ferU27UVaxcHNWvO+1qe1fsZ3QWvtqFdd1/+wvDcI3wHTGE2Y
+wLhQql91XaN3jYVLYyB0s1/HB4tQ/mcVq3JuvyYqjtKwuv9vuddd7i0u5D9j
+5mK/tl7qH09qavDDKipo/zOeatE90HePVkO3TOqR/iqeEjuq9JkbXyz1bRmv
+/YANTC2fmTOnC6Kl6Am/4IbusXyWEfNyABOU8htQSwECFwsUAAAACAAKbSJY
+FHSNhjACAAA8CgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHVRKU
+ZVBLBQYAAAAAAQABAD4AAABmAgAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::TextAlign" type="int" description="" unit="" values="" default="Center"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Appears" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Authors" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Builds" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Contextualises" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Conveys" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Creates" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Embodies" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Evokes" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Expresses" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Features" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Has" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Pursues" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="IspartOf" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Makes" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Performs" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Realises" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Represents" notes="" cx="129" cy="40" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Requires" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Serves" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Supports" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Traverses" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Uses" notes="" cx="129" cy="40" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Architecture" metatype="Architecture" notes="" cx="144" cy="70" bgcolor="16760576" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACZtIljVgsKJWAEAAMwDAAAHABEAc3RyLmRhdFVUDQAHbxKU
+ZW8SlGVvEpRltZJPS8NAEMXfNYLfIbSXFmqrFVEUwaJFvHoQPEnabGuhppKm
+Kkq/u7/dTdJVLIggS5aZ2ffmz5v01FOsoa50rXvtagffRu5klGupmRbK8O05
+DZB9HQbogVYq9Ag2L7EefUs8JUesS82VkHOJ3QLl412N6/gFfsZZuOhCT2oH
+FYbgDDEDoggqDMg1pvKMqMEqyJxjWab9lrwleiYSw05cDRv/cHdEF0YTN+c7
+Vksn2ldHR9xtnZWYBFQKZqVRkK+lBizbaYbVIf8BLMuOdUyG3/Btz2/c3/n9
+L3x/h5NUdf1LNUsE4gHMnPep29o5XwOsV81utFFnjfTyI3pE5oJjNxCijdtY
+AWPkdjHBM1hpzcx4sxvasCruzGk/Lae+Kbvf27q9rl5hTEpdvCb+3mjkrY1K
+661qVSr/h1rb0H9RK6Lf3P2hBfPnrn87QepUa9aMJl44t595rU9QSwECFwsU
+AAAACAAmbSJY1YLCiVgBAADMAwAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRh
+dFVUBQAHbxKUZVBLBQYAAAAAAQABAD4AAACOAQAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Experience" metatype="Experience" notes="" cx="144" cy="70" bgcolor="4678655" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAD5tIlg/ufOvUgEAAMQDAAAHABEAc3RyLmRhdFVUDQAHexKU
+ZXsSlGV7EpRltVFNS8NAEH3XCP6HkF5SqK1WRFEERYt49VDwJEmT1EBMpElt
+UfrffTObj620IIIsO5mdeW8y82aEEVxMcI8HPOMQB3xLZIoYC5RIUSDnW86l
+hRzj1ELfYokKr8QuaqxBPzEesYaLO2QIWLOk7xNl4kPM2vgN3zlPodECb+hb
+f5gQFzMWE1Ft9bPGu/aaam5GKyy5JTsKNOuSGWh9iX+pddhBjERn/KTn4wLH
+GOCMto+rGhMQFRGzRGjV8+GRJV3m9Aasf0KWsF2cs8Jv+BW/a9qf/PEW31h7
+kua/JtPM4hDxQkzG/Fw3ds3rqR6imCjktVUdfOxEh6xc8Yj6NjrWbVVkhLqH
+RNXOGG2YOXOynY7VcFPVfl5P/Vh3f7Rzc0OsiE5qTYwexnb6GK9TaLNXqUbh
+/1BqH/ovSjnsV1SQeit60r9MEKlivZbR48ue28y8wTdQSwECFwsUAAAACAA+
+bSJYP7nzr1IBAADEAwAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+exKUZVBLBQYAAAAAAQABAD4AAACIAQAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Identity" metatype="Identity" notes="" cx="144" cy="70" bgcolor="10025880" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADxtIliWwzl9XAEAAMQDAAAHABEAc3RyLmRhdFVUDQAHihKU
+ZYoSlGWKEpRltVLbSsNAED2vEfyHkL6kUK1WRFEEixbx1QfBJ0maTQ3URDZb
+r/TfPbObyyoWRJAly8zsOXM5kzHGCDHDJa5wh21s0ZfILRQ0ahSoUNKXc+Ih
+Jzjw0FOsYPBArG6wDn3DeMYcIS6wRMKcNe2YKBffxbyLn9MveSobrfCIoVdh
+RpxiTBFhvApT5pqzcsGoomWYWdMSpnw13xI8MRKSndgaEv+wd8AuFHI75zut
+GMfYwwiHvIc4bTAJURkxK6RevhgRWdJpSWvE/PtkCTvEETP8hi89v/L+zp98
+4bvbn6St617aWQIi7olZ8n1ht3bGLyLWqSYbjbqsAZ5/RKfMbHhkAz5a2Y0Z
+MlK7i5yeopV1zJJvsqGe1XILq/2imfq66X6HlugvvUnmN27+hci80cNp4e5e
+G2f16qw3qtSq+x8qbUL/RaWA/Wr7ZxrOr23/MkFm1Rp0jAE9f2438xqfUEsB
+AhcLFAAAAAgAPG0iWJbDOX1cAQAAxAMAAAcACQAAAAAAAAAAAACAAAAAAHN0
+ci5kYXRVVAUAB4oSlGVQSwUGAAAAAAEAAQA+AAAAkgEAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Intersection" metatype="Intersection" notes="" cx="144" cy="70" bgcolor="13882323" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAChtIlgcuGppWQEAAMQDAAAHABEAc3RyLmRhdFVUDQAHoBKU
+ZaASlGWgEpRltVJdS8NAEJzXCP6HkL6kUK1WRFEERYv4JFQQfJLEXGqhppJc
+VZT+d2f38nGKBRHkyGV3b2Zvd/aGGCLEGBe4xB02sUFfIrcwKFFhhgUK+rKO
+POQIex76DEtYPBJb1liHnjCeMUeIc8yRMGdFOybKxbfx0MZP6RdcC40u8IS+
+d8OYOMOYIcJ6N1yp72o15Nm6YmHKV7GqBM88C8lO9A6Jf+gesAqDXPt8pxXj
+EDsYYJ97H8c1JiEqI2aJ1MsXIyJLKi1oDZh/lyxhhzhght/wpfI37t/5oy98
+t/udNPe6k6aXgIh7YuY8n+rUTvhFxDrVRKWozRrg5Ud0ysyWSybgo41OzJKR
+6ixyeoZW1jILnsmEOlbDnan207rrm7aTLVzry3HzNpz8K/95rYfTwu2dNs7q
+1FmtValR9z9UWof+i0oB6y31ZVr2X2r90kGmavVaRo+e37freYVPUEsBAhcL
+FAAAAAgAKG0iWBy4amlZAQAAxAMAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
+YXRVVAUAB6ASlGVQSwUGAAAAAAEAAQA+AAAAjwEAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Base" metatype="Base" notes="" cx="144" cy="70" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADJtIliem6DmVgEAALIDAAAHABEAc3RyLmRhdFVUDQAHlRKU
+ZZUSlGWVEpRltZJfS8NAEMTnNYLfIbQvLdRWK6Iogv+Kj4KC4JOkTVorNZUk
+VVH63f3dXZKeYkEEObLd3ZuZu51rTz2FGuhCl7rTpjaoTedWiTLlmmqulNqs
+Qw/Z166HPtVChR7AZiXWoa/px2iEOtdMEZo5eQuU63c1qvsn1ClrbrtzPant
+nTAAl9BLQBTeCWewc7oGab6cW0R6phOCjqym6X/YGHBqorGd652spQNtq6M9
+YltHJSYCFYNZaOjptdSAZW6WknXQ34Fl2KH2UfgNv+D3jfid3//Cd9GfpDrX
+7VSzBCDuwczYn9hXOuZrgHUumRds1KqBXn5ED1EuWMZxH53YFypgDK33Y6qE
+LK6ZKXvmRVasiju13k/KqW/qSbZ0hdoj2Qjlrl7BjUs3nBMurpxx2cqb5VqP
+Km//w6N16L94FHDfzP4vC+bP7P3NBLH1qlkzmlT+3G7mpT4BUEsBAhcLFAAA
+AAgAMm0iWJ6boOZWAQAAsgMAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRV
+VAUAB5USlGVQSwUGAAAAAAEAAQA+AAAAjAEAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Tag" metatype="Tag" notes="" cx="144" cy="70" bgcolor="-1" fontcolor="16777215" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANSQIlixDovbAwEAACwCAAAHABEAc3RyLmRhdFVUDQAHolCU
+ZaJQlGWiUJRllZDLSsNQEIb/rYLvENJNhWqrggtF8FbciwiuJDansViTkkQF
+xXf3m8ml2Uo4J2f++eY61VSR5rrVnZ60p11sUx4VVKrSSoVybPvOBuSxTgb0
+lT5U6xW2bNmGvkdPyRHpRmsl5Kx4j6Ea/VCLXr/EzvkKVwu9a39QYQ4X0AJE
+PajwQHTmnJ2KHhJtoCLYxDOa/uP3Dt5n1DV65lNdcGKqNVlt4ljnLfv5Dzb4
+NDX8i/e5xAq80j4ux2fdb2OaO3Xa9vzNa6xTzTRhuzOm78iVz5K5P24nPtC1
+b26hN/b1BbHEN6GWxXf3Ef/ha5tzQ/+2nZrY0ndmW0u9wqjvdoTVxfzqD1BL
+AQIXCxQAAAAIANSQIlixDovbAwEAACwCAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAeiUJRlUEsFBgAAAAABAAEAPgAAADkBAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Metric" metatype="Metric" notes="" cx="144" cy="95" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADaRJVhNIP82xAEAAGQKAAAHABEAc3RyLmRhdFVUDQAHx0WY
+ZcdFmGXHRZhl7VVNT8JAEH3XmvgfSLlAoqCYeMCPiErqQT34QcLJoC1IUltD
+iyQa/rtvZktZEg8lqeFCGra7s2/ezJudLU00UUEX1/DQxy52uBZLDwEmSDBG
+jIhredoWsoUjC93BFCneiZ1kWIN+oN0nRwVXCDEgZ8J5jShjb+Att19wHfGJ
+1RrjA3UrQpe4gLaAiNSKcEdLSr4xfQQtv4SZDPDJnQo9Bsor9h84+na4/0J7
+yJ2RqjvjzyWDYRflLk4y7Nca2EBVpcS/ar5DrgLO/Nwv4p6oWPqY0ai85K6f
+Wcb0llrd0JbgieOIKzc/gTYfW/2jxk1Z2YSoPY1m+FxW0tTSYQ3M26Fd8pMT
+/uashmMc0KvFsZ7nJllIBUeKcLMs9nmuorSBGXeHWTTxXoyHfNszm3HJvJ6+
+np7CVGtn1J3S1sEtnulzvqLS1umwE4RBTmvGmXSG9Iav0ar5iVSVYZmnQ6xE
+n/IdWfb5PyjZXO5F+eWuVamtQ0XtAspWM1rENaPp9Xui5KshUcNsZ91K/tXz
+q7zl934fcqNDfqFm2xtQmpLN5V6Uv/wb4LGH4lK/9wvG8rve03rKf96258tS
+srnci/KX0fNz/AJQSwECFwsUAAAACAA2kSVYTSD/NsQBAABkCgAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHx0WYZVBLBQYAAAAAAQABAD4AAAD6
+AQAAAAA=
+</Image>
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EDGY::MetricStatus" type="int" description="" unit="" values="" default="Good"/>
+					<Tag name="EDGY::MetricValue" type="int" description="" unit="" values="" default="&lt;VALUE&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+		<QuickLink data="//Source Element Type,Source ST filter,Target element type,Target ST filter,Diagram filter,New element type,New element ST,New link type,New link ST,New link direction,New link caption,New link &amp; element caption,Create link,Create Element,Disallow self connector,Exlcusive to ST ,Menu group,CL,Target must be parent,Embed element,Seperator,In Group,Dummy&#xA;Class,Object,Class,Object,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Class,Channel,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Class,Asset,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Class,Content,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Activity,Outcome,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Activity,Task,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Activity,Capability,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Activity,Purpose,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Interface,Activity,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Interface,Journey,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Interface,Process,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Interface,Story,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,UseCase,Organisation,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,UseCase,Product,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,UseCase,Brand,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Actor,People,,,,Composition,Tree,undirected,Is composed of,Is composed of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Object,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Channel,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Asset,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Outcome,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Purpose,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Activity,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Class,Object,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Class,Channel,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Class,Asset,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Class,Content,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Activity,Outcome,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Activity,Task,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Activity,Capability,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Activity,Purpose,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Interface,Activity,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Interface,Journey,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Interface,Process,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Interface,Story,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,UseCase,Organisation,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,UseCase,Product,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,UseCase,Brand,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Actor,People,Actor,People,,,,ControlFlow,Flow,undirected,Flows to,Flows to,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Story,Activity,Purpose,,,,Association,Contextualises,undirected,Contextualises,Contextualises,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Activity,Purpose,,,,Association,Expresses,undirected,Expresses,Expresses,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Class,Content,Interface,Story,,,,Association,Conveys,undirected,Conveys,Conveys,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Interface,Journey,,,,Association,IsPartOf,undirected,Is part of,Is part of,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Task,Class,Channel,,,,Association,Uses,undirected,Uses,Uses,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Journey,Class,Channel,,,,Association,Traverses,undirected,Traverses,Traverses,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Activity,Capability,Class,Asset,,,,Association,Requires,undirected,Requires,Requires,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Activity,Capability,,,,Association,Realises,undirected,Realises,Realises,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,Class,Asset,,,,Association,Requires,undirected,Requires,Requires,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,UseCase,Brand,,,,Association,Builds,undirected,Builds,Builds,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,UseCase,Product,,,,Association,Makes,undirected,Makes,Makes,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,UseCase,Brand,,,,Association,Embodies,undirected,Embodies,Embodies,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Activity,Task,,,,Association,Serves,undirected,Serves,Serves,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Interface,Journey,,,,Association,Features,undirected,Features in,Features in,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Product,Activity,Capability,,,,Association,Requires,undirected,Requires,Requires,TRUE,,TRUE,TRUE,,0,,,,,&#xA;Interface,Process,UseCase,Product,,,,Association,Creates,undirected,Creates,Creates,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Activity,Purpose,,,,Association,Pursues,undirected,Pursues,Pursues,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Interface,Story,,,,Association,Authors,undirected,Authors,Authors,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Activity,Capability,,,,Association,Has,undirected,Has,Has,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Organisation,Interface,Process,,,,Association,Performs,undirected,Performs,Performs,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Interface,Story,,,,Association,Evokes,undirected,Evokes,Evokes,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Activity,Purpose,,,,Association,Represents,undirected,Represents,Represents,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Activity,Task,,,,Association,Supports,undirected,Supports,Supports,TRUE,,TRUE,TRUE,,0,,,,,&#xA;UseCase,Brand,Interface,Journey,,,,Association,Appears,undirected,Appears in,Appears in,TRUE,,TRUE,TRUE,,0,,,,,&#xA;&#xA;"/>
+	</Content>
+</UMLProfile>

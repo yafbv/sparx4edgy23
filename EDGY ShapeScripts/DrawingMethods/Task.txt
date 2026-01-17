@@ -1,0 +1,60 @@
+// EDGY
+// Version   : EDGY23
+// Author    : Rudi Claes (rudi.claes@inno.com)
+// Element   : Task
+
+shape main
+{
+	layouttype="border";
+	noshadow=true;
+	setfillcolor(255, 192, 203); // (R,G,B)
+	
+	defsize(105,70);
+	startpath();
+	roundrect(0,0,100,100,20,20);
+	endpath();
+	fillandstrokepath();
+	
+	addsubshape("rect_padding","e");
+	addsubshape("rect_padding","w");
+	addsubshape("rect_padding","n");
+	addsubshape("name","center");
+	
+	shape rect_padding
+	{
+		preferredheight=20;
+		preferredwidth=4;
+	}
+	shape icon_padding
+	{
+		preferredheight=10;
+	}
+	
+	shape name
+	{
+		bold=true;
+		v_align="top";
+		h_align="center";
+		print("#name#");
+	}
+}
+
+decoration task
+{
+	orientation="nw";	
+	setfillcolor(255, 192, 203); // (R,G,B)
+	ellipse(5, 5, 95, 95);
+}
+
+decoration composite
+{
+	orientation="sw";
+	
+	if(hasproperty("iscomposite","true"))
+	{
+		ellipse(0,40,40,60);
+		ellipse(60,40,100,60);
+		moveto(30,50);
+		lineto(70,50);
+	}
+}
